@@ -38,6 +38,7 @@ textarea,
   width: 24px;
   height: 24px;
   margin-right: 9px;
+      border-radius: 50%; 
 }
 .topbar .right-group .link-group a:hover {
   background: #355486;
@@ -112,6 +113,7 @@ textarea,
   width: 20px;
   height: 20px;
   margin-right: 6px;
+  border-radius: 50%;
 }
 .left-content .global-links .counter {
   float: right;
@@ -154,7 +156,7 @@ textarea,
 .feed-content .recentcontainer .newpostheader,
 .feed-content .recentcontainer .newpostfooter {
   padding: 4px 5px;
-  background: #f6f7f9;
+  background: #fff;
 }
 .feed-content .recentcontainer .newpostheader li,
 .feed-content .recentcontainer .newpostfooter li {
@@ -189,6 +191,7 @@ textarea,
   width: 40px;
   height: 40px;
   margin: 5px 5px 0 5px;
+  border-radius: 50%;
 }
 .feed-content .recentcontainer .newpostheader a .name,
 .feed-content .recentcontainer .newpostfooter a .name {
@@ -243,7 +246,7 @@ textarea,
 }
 .feed-content .recentcontainer .community-counter {
   padding: 4px 5px;
-  background: #f6f7f9;
+  background: #fff;
 }
 .feed-content .recentcontainer .community-counter li a {
   font-size: 14px;
@@ -273,12 +276,13 @@ textarea,
 }
 .feed-content .recentcontainer .commentpost {
   display: inherit;
-  background: #f6f7f9;
+  background: #fff;
   margin-top: -1px;
 }
 .feed-content .recentcontainer .commentpost img {
   margin: 10px;
   height: 40px;
+  border-radius: 50%;
 }
 .feed-content .recentcontainer .commentpost .input-group-btn {
   display: inline-block;
