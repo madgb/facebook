@@ -172,6 +172,22 @@ textarea,
 .left-content a:last-child .fa-caret-down {
   margin-right: 12px;
 }
+.cover-section{
+  position: absolute;
+  top: 400px;
+  bottom: 0;
+  left: 250px;
+  right: 0;
+  padding: 12px 7px;
+  background: #e9ebee;
+  overflow: auto;
+}
+.cover-section .cover-img{
+  width: 100%;
+  background: url(https://scontent.ficn2-1.fna.fbcdn.net/v/t31.0-8/29060144_10151532524504999…8669235130_o.jpg?_nc_cat=0&oh=4130f7a…&oe=5BAE81E5);
+  height: 300px;
+  background-size: cover;
+}
 .feed-content {
   position: absolute;
   top: 75px;
@@ -336,7 +352,7 @@ textarea,
 }
 .thirdcol-content {
   position: fixed;
-  top: 75px;
+  top: 400px;
   bottom: 0;
   width: 250px;
   background: #e9ebee;
