@@ -35,12 +35,13 @@ textarea,
 
 .topbar .right-group {
   float: right;
+  position: relative;
 }
 .topbar .right-group::after{
   content: "Forgot Account?";
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -17px;
+  left: 3px;
   font-size: 12px;
   color: #8BA4D0;
 }
@@ -49,6 +50,18 @@ textarea,
   top: -4px;
   display: inline-block;
   padding: 0;
+  margin-right: 15px;
+}
+.topbar .right-group .link-group .login-form{
+  padding: 3px;
+  border: 1px solid #000;
+}
+.topbar .right-group .link-group .login-button{
+    background-color: #4267b2;
+    border: 1px solid;
+    color: #fff;
+    border-color: #29487d;
+    padding: 4px 9px 8px;
 }
 .topbar .right-group .link-group a {
   padding: 9px 8px;
