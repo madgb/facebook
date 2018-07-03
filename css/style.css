@@ -645,9 +645,8 @@ textarea,
 }
 
 .commentpost .comment-form{
-  border-radius: 30px;
+  border-radius: 30px !important;
   height: 32px;
-  margin-left: 10px;s
+  margin-left: 10px;
   overflow: hidden;
-  line-height: 1.5;
 }
