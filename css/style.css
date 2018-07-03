@@ -635,3 +635,8 @@ textarea,
 .commentpost .input-group{
   padding: 8px 12px;
 } 
+@media (max-width: 424px){
+  .notification-group > .last{
+    display: none;
+  }
+}
