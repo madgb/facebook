@@ -643,3 +643,11 @@ textarea,
     font-size: 12px;
   }
 }
+
+.commentpost .comment-form{
+  border-radius: 30px;
+  height: 32px;
+  margin-left: 10px;s
+  overflow: hidden;
+  line-height: 1.5;
+}
