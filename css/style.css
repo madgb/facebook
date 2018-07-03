@@ -639,4 +639,7 @@ textarea,
   .notification-group .link-group:nth-child(4){
     display: none;
   }
+  .feed-content .recentcontainer .newpostheader li a, .feed-content .recentcontainer .newpostfooter li a {
+    font-size: 12px;
+  }
 }
