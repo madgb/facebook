@@ -174,7 +174,7 @@ textarea,
 }
 .cover-section{
   position: absolute;
-  top: 400px;
+  top: 75px;
   bottom: 0;
   left: 250px;
   right: 0;
@@ -190,7 +190,7 @@ textarea,
 }
 .feed-content {
   position: absolute;
-  top: 75px;
+  top: 400px;
   bottom: 0;
   left: 250px;
   right: 0;
