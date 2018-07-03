@@ -280,8 +280,7 @@ textarea,
   margin-top: -1px;
 }
 .feed-content .recentcontainer .commentpost img {
-  margin: 10px;
-  height: 40px;
+  height: 32px;
   border-radius: 50%;
 }
 .feed-content .recentcontainer .commentpost .input-group-btn {
@@ -289,7 +288,7 @@ textarea,
   background: #fff;
 }
 .feed-content .recentcontainer .commentpost .input-group-btn a {
-  margin-top: 10px;
+  padding: 5px 10px;
 }
 .feed-content .recentcontainer:nth-child(1) .newpostfooter li:first-child .fa {
   color: #96b756;
@@ -632,4 +631,7 @@ textarea,
 }
 .tc {
   text-align: center;
+}
+.commentpost .input-group{
+  padding: 8px 12px;
 }
