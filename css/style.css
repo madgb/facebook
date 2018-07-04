@@ -492,7 +492,6 @@ background-position: -40px -259px;
   border: 0;
 }
 .thirdcol-content .section-content .pac .pics{
-  float: left;
   margin-right: 4px;
 }
 .thirdcol-content .section-content h4:nth-child(1) {
@@ -901,5 +900,14 @@ background-position: -40px -259px;
   }
   .photo-post-box .vertical{
     width: 100%;
+  }
+  .thirdcol-content .section-content .pac{
+    display: table;
+  }
+  .thirdcol-content .section-content .pac .pics, .thirdcol-content .section-content .pac .letters{
+    display: table-cell;
+  }
+  .thirdcol-content .section-content .pac .letters{
+    padding-left: 5px;
   }
 }
