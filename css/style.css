@@ -7,6 +7,10 @@ textarea,
   border-radius: 0;
   resize: none;
 }
+.gb-container{
+  width: 1024px;
+  margin: 75px auto 0;
+}
 .topbar {
   position: fixed;
   top: 0;
@@ -126,12 +130,9 @@ textarea,
   left: 0;
 }
 .left-content {
-  position: fixed;
-  top: 75px;
-  bottom: 0;
+  float: left;
   width: 250px;
   background: #e9ebee;
-  overflow: auto;
 }
 .left-content .global-links {
   padding: 10px;
@@ -173,13 +174,7 @@ textarea,
   margin-right: 12px;
 }
 .cover-section{
-  position: absolute;
-  top: 75px;
-  bottom: 0;
-  left: 250px;
-  right: 0;
   padding: 12px 7px;
-  background: #e9ebee;
   overflow: auto;
 }
 .cover-section .cover-img{
@@ -700,4 +695,10 @@ textarea,
   height: 32px;
   margin-left: 10px;
   overflow: hidden;
+}
+
+/*grid test*/
+.css-grid{
+  display: grid;
+  grid-template-columns: auto 300px;
 }
