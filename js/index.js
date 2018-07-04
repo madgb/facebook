@@ -36,4 +36,7 @@ $(document).ready(function() {
 	$(".logo-span").click(function(event) {
 		alert("sorry it's blocked for experimental reason.")
 	});	
+	$(".cover-infos .coverInfo > span").click(function(event) {
+		alert("sorry it's blocked for experimental reason.")
+	});	
 });
