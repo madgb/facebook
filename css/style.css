@@ -885,9 +885,7 @@ background-position: -40px -259px;
     display: table;
   }
   .feed-content{
-    width: auto;
     display: table-cell;
-    padding-left: 220px;
   }
   .thirdcol-content{
     display: table-cell;
