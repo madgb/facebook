@@ -153,9 +153,13 @@ textarea,
 }
 .left-content .page-logo{
   width: 100%;
+  margin-bottom: 12px;  
 }
 .left-content .facebook-id{
-  color: #000;
+  margin-bottom: 16px;
+  color: #8f949c;
+  font-weight: bold;
+  font-size: 13px;
 }
 .left-menus{
   font-size: 13px;
