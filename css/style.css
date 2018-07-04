@@ -252,11 +252,15 @@ textarea,
   float: right;
 }
 .cover-infos .coverInfo{
+  margin-left: 6px;
+}
+.cover-infos .coverInfo > span{
   border: 1px solid #ccc;
   border-radius: 2px;
   background: #f6f7f9;
-  padding: 4px;
+  padding: 4px 10px;
   font-size: 12px;
+  margin-left: -5px;
 }
 .cover-infos .coverInfo .imoji{
   background-repeat: no-repeat;
@@ -286,6 +290,12 @@ textarea,
   background-image: url("https://facebook.com/rsrc.php/v3/yS/r/XFJdEd8FKHe.png");
   background-size: 97px 1364px;
   background-position: -49px -960px;
+}
+.cover-infos .coverInfo .dotdot::after{
+  content: '';
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
 }
 .feed-content {
   padding: 12px 7px;
