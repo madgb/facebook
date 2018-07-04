@@ -878,3 +878,30 @@ background-position: -40px -259px;
   -ms-grid-row: span 2;
   grid-row: span 2;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+  .css-grid {
+    display: table;
+  }
+  .feed-content{
+    width: auto;
+    display: table-cell;
+    padding-left: 220px;
+  }
+  .thirdcol-content{
+    display: table-cell;
+    width: 250px;
+  }
+  .photo-post-box{
+    display: table;
+  }
+  .photo-post-box .photo{
+    height: 200px;
+    float: left;
+    width: 50%;
+  }
+  .photo-post-box .vertical{
+    width: 100%;
+  }
+}
