@@ -10,5 +10,8 @@ $(document).ready(function() {
 	});
 	$(".login-button").click(function(event) {
 		alert("sorry it's blocked for experimental reason.")
+	});
+	$(".logo-span").click(function(event) {
+		alert("sorry it's blocked for experimental reason.")
 	});	
 });

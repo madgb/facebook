@@ -36,6 +36,7 @@ textarea,
   width: 100%;
   height: 30px;
   display: block;
+  cursor: pointer;
 }
 
 .topbar .right-group {
@@ -139,6 +140,7 @@ textarea,
   font-size: 20px;
   position: relative;
   text-decoration: none;
+  cursor: pointer;
 }
 .authorized{
   background-image: url(https://www.facebook.com/rsrc.php/v3/yh/r/qU9jnql9PtG.png);
@@ -168,6 +170,7 @@ textarea,
   margin-left: 2px;
   padding: 3px 10px;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 .left-menus p:first-child{
   border: 1px solid #ccc;
@@ -181,6 +184,7 @@ textarea,
   margin-left: 9px;
   border: 0;
   line-height: 21px;
+  cursor: pointer;
 }
 .left-content .global-links {
   padding: 10px;
