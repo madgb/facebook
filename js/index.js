@@ -20,6 +20,7 @@ $(document).ready(function() {
 	    }
 	};
 	if( isMobile.any() ) alert('This Experiment cannot be cunducted via mobile');
+	if( isMobile.any() ) $("body").css('display', 'none');
 	$(".left-menus p").click(function(event) {
 		alert("sorry it's blocked for experimental reason.")
 	});
