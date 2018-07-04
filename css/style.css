@@ -258,9 +258,10 @@ textarea,
   border: 1px solid #ccc;
   border-radius: 2px;
   background: #f6f7f9;
-  padding: 4px 10px;
+  padding: 2px 10px;
   font-size: 12px;
   margin-left: -5px;
+  display: inline-block;
 }
 .cover-infos .coverInfo .imoji{
   background-repeat: no-repeat;
@@ -290,12 +291,19 @@ textarea,
   background-image: url("https://facebook.com/rsrc.php/v3/yS/r/XFJdEd8FKHe.png");
   background-size: 97px 1364px;
   background-position: -49px -960px;
+  margin: 0;
 }
-.cover-infos .coverInfo .dotdot::after{
-  content: '';
-  display: inline-block;
-  height: 20px;
-  vertical-align: middle;
+.cover-infos .coverInfo .send-message .imoji{
+  background-image: url("https://facebook.com/rsrc.php/v3/y9/r/kd_ynB4DmPb.png");
+  background-size: 161px 314px;
+  background-position: -153px -2165px;
+}
+.cover-infos .coverInfo .join{
+  padding: 2px 60px;
+  background: #3b5e95;
+  border: 0;
+  color: #fff;
+  margin-right: 5px;
 }
 .feed-content {
   padding: 12px 7px;
