@@ -1,5 +1,5 @@
 body {
-  background-color: #e9ebee;
+  background-color: #e9ebee !important;
 }
 textarea,
 .form-control {
@@ -184,11 +184,6 @@ textarea,
   background-size: cover;
 }
 .feed-content {
-  position: absolute;
-  top: 400px;
-  bottom: 0;
-  left: 250px;
-  right: 0;
   padding: 12px 7px;
   background: #e9ebee;
   overflow: auto;
@@ -346,14 +341,7 @@ textarea,
   font-size: 20px;
 }
 .thirdcol-content {
-  position: fixed;
-  top: 400px;
-  bottom: 0;
-  width: 250px;
-  background: #e9ebee;
-  right: 0;
-  display: block;
-  width: 300px;
+  width: 100%;
   padding: 12px 7px;
   background: #e9ebee;
   overflow-x: auto;
