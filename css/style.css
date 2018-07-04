@@ -130,7 +130,7 @@ textarea,
   left: 0;
 }
 .left-content {
-  width: 220px;
+  width: 200px;
   background: #e9ebee;
   position: fixed;
   left: 80px;
@@ -165,6 +165,9 @@ textarea,
   color: #fff;
   background: #43b72b;
   border-radius: 2px;
+  margin-left: 9px;
+  border: 0;
+  line-height: 21px;
 }
 .left-content .global-links {
   padding: 10px;
@@ -209,7 +212,7 @@ textarea,
 .cover-section{
   padding: 12px 7px;
   overflow: auto;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 .cover-section .cover-img{
   width: 100%;
@@ -723,5 +726,5 @@ textarea,
 .css-grid{
   display: grid;
   grid-template-columns: auto 300px;
-  margin-left: 220px;
+  margin-left: 200px;
 }
