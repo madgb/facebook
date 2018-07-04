@@ -229,7 +229,7 @@ textarea,
 .cover-section{
   padding: 12px 7px;
   overflow: auto;
-  margin-left: 200px;
+  margin-left: 220px;
 }
 .cover-section .cover-img{
   width: 100%;
@@ -743,5 +743,5 @@ textarea,
 .css-grid{
   display: grid;
   grid-template-columns: auto 300px;
-  margin-left: 200px;
+  margin-left: 220px;
 }
