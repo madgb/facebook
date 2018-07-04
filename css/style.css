@@ -824,7 +824,9 @@ background-position: -40px -259px;
 
 /*grid test*/
 .css-grid{
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: auto 300px;
   grid-template-columns: auto 300px;
   margin-left: 220px;
 }
@@ -855,8 +857,10 @@ background-position: -40px -259px;
   font-size: 13px;
 }
 .photo-post-box{
-  display: grid;
+  display: -ms-grid;
+  -ms-grid-columns: auto auto;
   grid-template-columns: auto auto;
+  -ms-grid-rows: 200px 200px;
   grid-template-rows: 200px 200px;
   grid-gap: 3px;
 }
@@ -866,8 +870,10 @@ background-position: -40px -259px;
   object-fit: cover;
 }
 .vertical{
+  -ms-grid-column: span 2;
   grid-column: span 2;
 }
 .horizontal{
+  -ms-grid-row: span 2;
   grid-row: span 2;
 }
