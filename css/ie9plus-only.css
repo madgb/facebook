@@ -1,0 +1,30 @@
+.css-grid {
+  display: table;
+}
+.feed-content{
+  display: table-cell;
+}
+.thirdcol-content{
+  display: table-cell;
+  width: 250px;
+}
+.photo-post-box{
+  display: table;
+}
+.photo-post-box .photo{
+  height: 200px;
+  float: left;
+  width: 50%;
+}
+.photo-post-box .vertical{
+  width: 100%;
+}
+.thirdcol-content .section-content .pac{
+  display: table;
+}
+.thirdcol-content .section-content .pac .pics, .thirdcol-content .section-content .pac .letters{
+  display: table-cell;
+}
+.thirdcol-content .section-content .pac .letters{
+  padding-left: 5px;
+}
