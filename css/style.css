@@ -433,8 +433,7 @@ background-position: -40px -259px;
 .feed-content .recentcontainer .newpost .postcontent {
   position: relative;
   margin-top: -40px;
-  padding-bottom: 40px;
-  white-space: pre-line;
+  padding-bottom: 20px;
 }
 .feed-content .recentcontainer .newpostfooter {
   margin-top: 1px;
@@ -819,8 +818,37 @@ background-position: -40px -259px;
 .news-link-box{
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 1px 4px rgba(0, 0, 0, .1);
 }
+.news-link-box .photo1{
+  background-image: url("https://external.ficn2-1.fna.fbcdn.net/safe_image.php?d=AQCczUnCdG38moDV&w=…d_placeholder_publisher&sx=0&sy=0&sw=1050&sh=549&_nc_hash=AQCc5A3jivJcJpYw");
+}
 .news-link-box .photo-section{
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+}
+.news-headline-section{
+  padding: 1rem;
+}
+.news-headline-section .headline{
+  font-family: serif;
+  font-size: 19px;
+  font-weight: bold;
+}
+.news-headline-section .phrase{
+  font-size: 13px;
+}
+.photo-post-box{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 200px 200px;
+  grid-gap: 3px;
+}
+.vertical{
+  grid-row: span 2;
+}
+.horizontal{
+  grid-column: span 2;
 }
