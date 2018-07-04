@@ -151,6 +151,15 @@ textarea,
   right: -20px;
   bottom: 0;
 }
+.left-content .page-logo{
+  width: 100%;
+}
+.left-content .facebook-id{
+  color: #000;
+}
+.left-menus{
+  font-size: 13px;
+}
 .left-menus p{
   margin-left: 2px;
   padding: 3px 10px;
