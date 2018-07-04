@@ -130,10 +130,41 @@ textarea,
   left: 0;
 }
 .left-content {
-  width: 250px;
+  width: 220px;
   background: #e9ebee;
   position: fixed;
   left: 80px;
+}
+.page-title-left{
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+}
+.authorized{
+  background-image: url(https://www.facebook.com/rsrc.php/v3/yh/r/qU9jnql9PtG.png);
+  background-repeat: no-repeat;
+  background-size: 64px 441px;
+  background-position: 0 -168px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+}
+.left-menus p{
+  margin-left: 2px;
+  padding: 3px 10px;
+  margin-bottom: 5px;
+}
+.left-menus p:first-child{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background: #f6f7f9;
+}
+.left-menus button{
+  color: #fff;
+  background: #43b72b;
+  border-radius: 2px;
 }
 .left-content .global-links {
   padding: 10px;
@@ -151,6 +182,7 @@ textarea,
   height: 20px;
   margin-right: 6px;
   border-radius: 50%;*/
+  width: 100%;
 }
 .left-content .global-links .counter {
   float: right;
@@ -691,5 +723,5 @@ textarea,
 .css-grid{
   display: grid;
   grid-template-columns: auto 300px;
-  margin-left: 250px;
+  margin-left: 220px;
 }
