@@ -43,9 +43,13 @@ $(document).ready(function() {
 
 	$(window).on( 'scroll', function(){
 		if($(window).scrollTop()>45){
-			$(".left-content").css("position","fixed");	
+			$(".left-content").css("position","fixed");
+			$(".gb-container").css("margin-top","0");
+			$(".topbar").css("display","none");
 		}else{
-			$(".left-content").css("position","absolute");	
+			$(".left-content").css("position","absolute");
+			$(".topbar").css("display","block");
+			$(".gb-container").css("margin-top","75px");	
 		}
-	});	
+	});
 });
