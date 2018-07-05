@@ -10,6 +10,7 @@ textarea,
 .gb-container{
   width: 1024px;
   margin: 75px auto 0;
+  position: relative;
 }
 .topbar {
   position: fixed;
@@ -128,13 +129,9 @@ textarea,
   color: #000;
 }
 .left-content {
-  left: 0;
-}
-.left-content {
   width: 200px;
   background: #e9ebee;
-  position: fixed;
-  left: 80px;
+  position: absolute;
 }
 .page-title-left{
   font-size: 20px;

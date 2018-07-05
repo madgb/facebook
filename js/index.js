@@ -38,5 +38,14 @@ $(document).ready(function() {
 	});	
 	$(".cover-infos .coverInfo > span").click(function(event) {
 		alert("sorry it's blocked for experimental reason.")
+	});
+
+
+	$(window).on( 'scroll', function(){
+		if($(window).scrollTop()>45){
+			$(".left-content").css("position","fixed");	
+		}else{
+			$(".left-content").css("position","absolute");	
+		}
 	});	
 });
