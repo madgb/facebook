@@ -52,4 +52,10 @@ $(document).ready(function() {
 			$(".gb-container").css("margin-top","75px");	
 		}
 	});
+	$(".like-click").one("click", function(){
+		var count = $(this).parent().parent().parent().find(".like-result span").html();
+		count++;
+		$(this).parent().parent().parent().find(".like-result span").html(count);
+	})
+	
 });
