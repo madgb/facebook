@@ -1,6 +1,10 @@
 body {
   background-color: #e9ebee !important;
 }
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 textarea,
 .form-control {
   border: 0;
@@ -144,6 +148,8 @@ textarea,
   background-repeat: no-repeat;
   background-size: 64px 441px;
   background-position: 0 -168px;
+}
+.page-title-left .authorized{
   width: 19px;
   height: 19px;
   position: absolute;
@@ -490,6 +496,36 @@ background-position: -40px -259px;
 }
 .thirdcol-content .section-content .pac .pics{
   margin-right: 4px;
+}
+.thirdcol-content .section-content h6{
+  text-align: center;
+}
+.thirdcol-content .section-content h6 span{
+  margin-left: 3px;
+  font-size: 12px;
+  color: #969696;
+}
+.thirdcol-content .section-content .pac2{
+  padding: 0 10px;
+}
+.thirdcol-content .section-content .pac2 > img{
+  border-radius: 50%;
+}
+.thirdcol-content .section-content .pac2 .name{
+  font-size: 13px;
+  font-weight: bold;
+}
+.thirdcol-content .section-content .pac2 .fas{
+  color: #5890fc;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.thirdcol-content .section-content .pac2 .vertical-set{
+  display: inline-block;
+  vertical-align: middle;
+}
+.thirdcol-content .section-content .pac2 .vertical-set .small-letter{
+  font-size: 12px;
 }
 .thirdcol-content .section-content h4:nth-child(1) {
   font-size: 14px;
