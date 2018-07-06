@@ -2,8 +2,8 @@ body {
   background-color: #e9ebee !important;
 }
 hr {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 }
 textarea,
 .form-control {
@@ -561,6 +561,9 @@ background-position: -40px -259px;
 .thirdcol-content .section-content a .fa {
   display: inline-block;
   margin: 5px;
+}
+.thirdcol-content .section-content .fa-angle-right{
+  float: rigth;
 }
 .thirdcol-content .section-content p:nth-child(3) {
   text-align: right;
