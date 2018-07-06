@@ -562,9 +562,6 @@ background-position: -40px -259px;
   display: inline-block;
   margin: 5px;
 }
-.thirdcol-content .section-content .fa-angle-right{
-  float: right;
-}
 .thirdcol-content .section-content p:nth-child(3) {
   text-align: right;
   margin: -20px 0 4px 0;
