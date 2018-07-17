@@ -502,8 +502,13 @@ background-position: -40px -259px;
   bottom: 0;
 }
 .feed-content .recentcontainer .comment-contents .comment-box .comment .thumbs-up .fas{
-  margin-right: 5px;
+  margin-right: 5px; 
+}
+.feed-content .recentcontainer .comment-contents .comment-box .comment .thumbs-up .fa-thumbs-up{
   color: #2479ff;
+}
+.feed-content .recentcontainer .comment-contents .comment-box .comment .thumbs-up .fa-heart{
+  color: #f32f86;
 }
 .thirdcol-content {
   width: 100%;
