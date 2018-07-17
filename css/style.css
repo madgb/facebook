@@ -457,12 +457,12 @@ background-position: -40px -259px;
 .feed-content .recentcontainer .commentpost .input-group-btn a {
   padding: 5px 10px;
 }
-.feed-content .recentcontainer:nth-child(1) .newpostfooter li:first-child .fa {
+/*.feed-content .recentcontainer:nth-child(1) .newpostfooter li:first-child .fa {
   color: #96b756;
 }
 .feed-content .recentcontainer:nth-child(1) .newpostfooter li:nth-child(2) .fa {
   color: #f1c04e;
-}
+}*/
 /*.feed-content .recentcontainer:nth-child(1) .newpostfooter li:last-child a:last-child {
   font-size: 20px;
 }*/

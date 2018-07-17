@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	//mobile adjustment
 	var isMobile = {
 	    Android: function() {
 	        return navigator.userAgent.match(/Android/i);
@@ -21,6 +22,9 @@ $(document).ready(function() {
 	};
 	if( isMobile.any() ) alert('This Experiment cannot be cunducted via mobile');
 	if( isMobile.any() ) $("body").css('display', 'none');
+
+
+	//block clickable buttons
 	$(".left-menus p").click(function(event) {
 		alert("sorry it's blocked for experimental reason.")
 	});
@@ -41,6 +45,8 @@ $(document).ready(function() {
 	});
 
 
+
+	//scroll design
 	$(window).on( 'scroll', function(){
 		if($(window).scrollTop()>45){
 			$(".left-content").css("position","fixed");
@@ -52,6 +58,10 @@ $(document).ready(function() {
 			$(".gb-container").css("margin-top","75px");	
 		}
 	});
+
+
+
+	//fake like function
 	$(".like-click").one("click", function(){
 		var count = $(this).parent().parent().parent().find(".like-result span").html();
 		count++;
