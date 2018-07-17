@@ -67,5 +67,11 @@ $(document).ready(function() {
 		count++;
 		$(this).parent().parent().parent().find(".like-result span").html(count);
 	})
-	
+
+
+	//comment slide
+	$(".comment-slide").hide();
+	$(".view-comment").on('click', function() {
+		$(this).parent().parent().parent().find(".comment-slide").slideToggle();
+	});	
 });
