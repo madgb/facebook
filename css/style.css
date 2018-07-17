@@ -466,6 +466,29 @@ background-position: -40px -259px;
 /*.feed-content .recentcontainer:nth-child(1) .newpostfooter li:last-child a:last-child {
   font-size: 20px;
 }*/
+
+/*comment section*/
+.feed-content .recentcontainer .comment-contents .comment-box{
+  padding: 5px;
+}
+.feed-content .recentcontainer .comment-contents .comment-box .pic{
+  width: 30px;
+  height: 30px;
+  background-image: url(https://pbs.twimg.com/profile_images/824716853989744640/8Fcd0bji_400x400.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  display: inline-block;
+}
+.feed-content .recentcontainer .comment-contents .comment-box .pic .comment{
+  display: inline-block;
+  vertical-align: top;
+  background-color: #eff1f3;
+  border-radius: 18px;
+  padding: 5px;
+  font-size: 13px;
+  margin-left: 5px;
+}
 .thirdcol-content {
   width: 100%;
   padding: 12px 7px;
