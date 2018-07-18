@@ -43,6 +43,9 @@ $(document).ready(function() {
 	$(".cover-infos .coverInfo > span").click(function(event) {
 		alert("sorry it's blocked for experimental reason.")
 	});
+	$(".block-click").click(function(event) {
+		alert("sorry it's blocked for experimental reason.")
+	});
 
 
 
@@ -66,6 +69,7 @@ $(document).ready(function() {
 		var count = $(this).parent().parent().parent().find(".like-result span").html();
 		count++;
 		$(this).parent().parent().parent().find(".like-result span").html(count);
+		$(this).parent().parent().parent().find(".like-result").css("color","#5890fc");
 	})
 
 
