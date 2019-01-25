@@ -1,4 +1,4 @@
-.pre-survey-wrapper{
+.pre-survey-wrapper, .ad-container{
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -47,4 +47,16 @@
 
 .yes-or-no{
     width: 100px;
+}
+
+.ad-container .inner{
+    width: 600px;
+    background: #fff;
+    border: 1px solid currentColor;
+    padding: 20px;
+    margin: 0 auto;
+}
+.ad-container #map{
+    width: 600px;
+    height: 400px;
 }
