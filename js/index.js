@@ -26,25 +26,25 @@ $(document).ready(function() {
 
 	//block clickable buttons
 	$(".left-menus p").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});
 	$(".left-menus button").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});
 	$(".page-title-left").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});
 	$(".login-button").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});
 	$(".logo-span").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});	
 	$(".cover-infos .coverInfo > span").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});
 	$(".block-click").click(function(event) {
-		alert("sorry it's blocked for experimental reason.")
+		alert("It's blocked for experimental reason.")
 	});
 
 
