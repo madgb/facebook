@@ -144,10 +144,10 @@ textarea,
   cursor: pointer;
 }
 .authorized{
-  background-image: url(https://www.facebook.com/rsrc.php/v3/yh/r/qU9jnql9PtG.png);
+  background-image: url(https://www.facebook.com/rsrc.php/v3/ya/r/VHaEGVxzzLD.png);
   background-repeat: no-repeat;
-  background-size: 64px 441px;
-  background-position: 0 -168px;
+  background-size: 28px 195px;
+  background-position: 0 -51px;
 }
 .page-title-left .authorized{
   width: 19px;
@@ -554,6 +554,9 @@ background-position: -40px -259px;
 }
 .thirdcol-content .section-content .pac2 > img{
   border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 .thirdcol-content .section-content .pac2 .name{
   font-size: 13px;
