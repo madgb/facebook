@@ -45,3 +45,100 @@
     padding-top: 20px;
     clear: both;
 }
+
+.yepme{
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.yepme .header{
+    width: 30%;
+}
+.yepme .header img{
+    width: 100%;
+}
+.yepme .main{
+    display: flex;
+    flex-flow: row wrap;
+}
+.yepme .main .left, .yepme .main .right{
+    width: 50%;
+}
+.yepme .main .left .pack{
+    margin-bottom: 7px;
+}
+.yepme .main .left .pack .title{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+.yepme .main .left .pack .text{
+    margin-top: -10px;
+}
+.yepme .main .left .pack .y{
+    color: #d6d600;
+}
+.yepme .main .left .pack .r{
+    color: #ed0000;;
+}
+.yepme .main .right .upper{
+    width: 100%;
+}
+.yepme .main .right .upper img{
+    width: 100%;
+}
+
+.dufresne{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url('../img/dufresne_sub.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    font-size: 21px;
+}
+.dufresne .a{
+    position: absolute;
+}
+.dufresne .header{
+    width: 200px;
+    left: 15px;
+}
+.dufresne .header img{
+    width: 100%;
+}
+.dufresne .text{
+    color: #fff;
+    padding: 5px 10px;
+}
+.dufresne .gr{
+    background: #5f913f;
+}
+.dufresne .bl{
+    background: #0aa39b;
+}
+.dufresne .t1{
+    top: 140px;
+    left: 15px;
+}
+.dufresne .t2{
+    right: 100px;
+    top: 220px;
+}
+.dufresne .t3{
+    top: 280px;
+    right: 130px;
+}
+.dufresne .t4{
+    top: 370px;
+    right: 15px;
+}
+.dufresne .t5{
+    bottom: 30px;
+    left: 15px;
+    width: 500px;
+}
