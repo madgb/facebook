@@ -21,16 +21,37 @@ $(document).ready(function () {
 
     let target = $('.newpostheader');
     const iconObjArr = [{
-            contents: 'Dunkin Donuts',
-            icon: 'https://foodbanksj.org/wp-content/uploads/2018/03/Color-Dunkin-Donuts-Logo.jpg'
-        },
-        {
-            contents: 'Starbucks',
-            icon: 'https://illuminatisymbols.info/wp-content/uploads/illuminati-symbols-Starbucks-Coffee-Logo.gif'
-        },
-        {
-            contents: 'Taco Bell',
-            icon: 'http://photos1.blogger.com/blogger/2398/1277/1600/tacobell.png'
+            id: 0,
+            width: 120,
+            contents: `<div class="vitafusion">
+            <div class="header">
+                <img src="img/vitafusion.png" alt="vitafusion">
+            </div>
+            <div class="main">
+                <div class="text">
+                    <div class="title">
+                        Gummy Vitamins for <b>Adults</b>
+                    </div>
+                    <div class="content">
+                        <p><b>Enjoy</b> being healthy</p>
+                        <p><b>Enjoy</b> taste</p>
+                        <p><b>Enjoy</b> the Experience</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="img/vitafusion_sub.png" alt="vitafusion">
+                </div>
+                <div class="bottom">
+                    <p>
+                        Now you can enjoy your vitamins with vitafusion! <br>
+                        First gummy vitamins for adults! <br>
+                        Available in the vitamin section at Target and other fine retailers. <br>
+                        www.nwnaturalproducts.com
+                    </p>
+                </div>
+            </div>
+        </div>`,
+            icon: 'img/vitafusion.png'
         }
     ]
 
@@ -40,13 +61,15 @@ $(document).ready(function () {
         let theNum = Math.floor(Math.random() * (maxlen - 0 + 1)) + 0;
 
         let icon = iconObjArr[theNum].icon;
+        let id = iconObjArr[theNum].id;
+        let width = iconObjArr[theNum].width;
         let content = iconObjArr[theNum].contents;
 
-        lonlat(icon);
+        lonlat(icon, id, width);
         adPend(content);
     })
 
-    const lonlat = (icon) => {
+    const lonlat = (icon, id, width) => {
         // icon = icon;
         // var input = document.getElementById('zip');
         // var lonlat = document.getElementById('lonlat');
@@ -82,13 +105,12 @@ $(document).ready(function () {
             lng = data.results[0].geometry.location.lng + lngDiff;
             // lonlat.innerHTML = 'Latitude = ' + lat + ' ' + '<br>Longitude = ' + lng;
 
-            initMap(lat, lng, icon);
+            initMap(lat, lng, icon, id, width);
         });
     }
 
-    const initMap = (lat, lng, icon) => {
-
-        console.log(lat, lng);
+    const initMap = (lat, lng, icon, id, width) => {
+        console.log(lat, lng, id);
         let position = {
             lat,
             lng
@@ -100,8 +122,8 @@ $(document).ready(function () {
                 center: position
             }
         );
-
-        let image = new google.maps.MarkerImage(icon, null, null, null, new google.maps.Size(50, 50));
+        
+        let image = new google.maps.MarkerImage(icon, null, null, null, new google.maps.Size(width, 50));
 
         let marker = new google.maps.Marker({
             position: position,
@@ -115,7 +137,7 @@ $(document).ready(function () {
         let canvas = $('.ad-content');
 
         wrapper.show();
-        canvas.text(content);
+        canvas.html(content);
     }
 
 });

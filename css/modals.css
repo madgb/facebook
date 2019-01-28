@@ -50,14 +50,14 @@
 }
 
 .ad-container .inner{
-    width: 600px;
+    width: 70%;
     background: #fff;
     border: 1px solid currentColor;
     padding: 20px;
     margin: 0 auto;
 }
 .ad-container #map{
-    width: 600px;
+    width: 100%;
     height: 400px;
 }
 
