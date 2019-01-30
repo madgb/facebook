@@ -20,52 +20,22 @@ $(document).ready(function () {
 
 
     let target = $('.newpostheader');
-    const iconObjArr = [{
-            id: 0,
-            width: 120,
-            contents: `<div class="vitafusion">
-            <div class="header">
-                <img src="img/vitafusion.png" alt="vitafusion">
-            </div>
-            <div class="main">
-                <div class="text">
-                    <div class="title">
-                        Gummy Vitamins for <b>Adults</b>
-                    </div>
-                    <div class="content">
-                        <p><b>Enjoy</b> being healthy</p>
-                        <p><b>Enjoy</b> taste</p>
-                        <p><b>Enjoy</b> the Experience</p>
-                    </div>
-                </div>
-                <div class="img">
-                    <img src="img/vitafusion_sub.png" alt="vitafusion">
-                </div>
-                <div class="bottom">
-                    <p>
-                        Now you can enjoy your vitamins with vitafusion! <br>
-                        First gummy vitamins for adults! <br>
-                        Available in the vitamin section at Target and other fine retailers. <br>
-                        www.nwnaturalproducts.com
-                    </p>
-                </div>
-            </div>
-        </div>`,
-            icon: 'img/vitafusion.png'
-        }
-    ]
-
+    
     target.on('click', (e) => {
         e.preventDefault();
         let maxlen = iconObjArr.length - 1;
         let theNum = Math.floor(Math.random() * (maxlen - 0 + 1)) + 0;
-
+        console.log('Ad is', theNum);
+        let map = iconObjArr[theNum].map;
         let icon = iconObjArr[theNum].icon;
         let id = iconObjArr[theNum].id;
         let width = iconObjArr[theNum].width;
         let content = iconObjArr[theNum].contents;
 
-        lonlat(icon, id, width);
+        if(map){
+            $('.ad-content').addClass('yes-map');
+            lonlat(icon, id, width);
+        }
         adPend(content);
     })
 
