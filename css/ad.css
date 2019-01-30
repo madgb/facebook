@@ -91,7 +91,10 @@
     width: 100%;
 }
 
-.dufresne{
+.dufresne img{
+    width: 100%;
+}
+/* .dufresne{
     font-family: 'Noto Sans', sans-serif;
     background-image: url('../img/dufresne_sub.png');
     background-size: 100%;
@@ -141,4 +144,13 @@
     bottom: 30px;
     left: 15px;
     width: 500px;
+} */
+
+.video-wrapper{
+    width: 100%;
+    height: 400px;
+}
+.video-wrapper iframe{
+    width: 100%;
+    height: 100%;
 }

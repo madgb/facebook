@@ -20,165 +20,22 @@ $(document).ready(function () {
 
 
     let target = $('.newpostheader');
-    const iconObjArr = [{
-            id: 0,
-            width: 120,
-            contents: `<div class="vitafusion">
-            <div class="header">
-                <img src="img/vitafusion.png" alt="vitafusion">
-            </div>
-            <div class="main">
-                <div class="text">
-                    <div class="title">
-                        Gummy Vitamins for <b>Adults</b>
-                    </div>
-                    <div class="content">
-                        <p><b>Enjoy</b> being healthy</p>
-                        <p><b>Enjoy</b> taste</p>
-                        <p><b>Enjoy</b> the Experience</p>
-                    </div>
-                </div>
-                <div class="img">
-                    <img src="img/vitafusion_sub.png" alt="vitafusion">
-                </div>
-                <div class="bottom">
-                    <p>
-                        Now you can enjoy your vitamins with vitafusion! <br>
-                        First gummy vitamins for adults! <br>
-                        Available in the vitamin section at Target and other fine retailers. <br>
-                        www.nwnaturalproducts.com
-                    </p>
-                </div>
-            </div>
-        </div>`,
-            icon: 'img/vitafusion.png'
-        },
-        {
-            id: 1,
-            width: 120,
-            contents: `<div class="yepme">
-            <div class="header">
-                <img src="img/yepme.png" alt="yepme">
-            </div>
-            <div class="main">
-                <div class="left">
-                    <div class="pack">
-                        <div class="title">
-                            High performance running shoes
-                        </div>
-                        <div class="text"></div>
-                    </div>
-                    <div class="pack">
-                        <div class="title">
-                            Blade sole
-                        </div>
-                        <div class="text r">
-                            For energetic and efficient run
-                        </div>
-                    </div>
-                    <div class="pack">
-                        <div class="title">
-                            SYNTHETIC UPPER
-                        </div>
-                        <div class="text r">
-                            Comfortable and durable
-                        </div>
-                    </div>
-                    <div class="pack">
-                        <div class="title">
-                            LIGHT WEIGHT TUBE SOLE
-                        </div>
-                        <div class="text y">
-                            Air cushioning for high performance
-                        </div>
-                    </div>
-                    <div class="pack">
-                        <div class="title">
-                            BREATHABILITY & SUPPORT
-                        </div>
-                        <div class="text y">
-                            Slip resistant and excellent fit
-                        </div>
-                    </div>
-                    <div class="pack">
-                        <div class="title">
-                            FLEXIBLE CUSHIONING
-        
-                        </div>
-                        <div class="text y">
-                            Fore muscle protection and comfort
-                        </div>
-                    </div>
-                    <div class="pack">
-                        <div class="title">
-                            RUBBER OUTSOLE
-                        </div>
-                        <div class="text r">
-                            For superior traction
-                        </div>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="upper">
-                        <img src="img/yepme_sub.png" alt="">
-                    </div>
-                    <div class="bottom">
-                        <p>
-                            Now you can enjoy your running with YEPME! 
-                            High performance running shoes! 
-                            Available in the sports section at Target 
-                            and other fine retailers.
-                            www.yepme.com                        
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>`,
-        icon: 'img/yepme.png'
-        },
-        {
-            id: 2,
-            width: 70,
-            contents: `<div class="dufresne">
-            <div class="header a">
-                <img src="img/dufresne.png" alt="dufresne">
-            </div>
-            <div class="text t1 gr a">
-                verona bedroom suite
-            </div>
-            <div class="text t2 bl a">
-                Hidden felt-lined jewelry drawer
-            </div>
-            <div class="text t3 bl a">
-                Soft slow close drawers
-            </div>
-            <div class="text t4 bl a">
-                Under bed storage with 4 large full extension drawers
-            </div>
-            <div class="text t5 gr a">
-                Now you can enjoy your life with Dufresne! <br>
-                Verona Bedroom Suite! <br>
-                Available in the furniture section at Target <br>
-                and other fine retailers.
-                www.durfresne.com
-            </div>
-        </div>`,
-        icon: 'img/dufresne.png'
-        }
-    ]
-
+    
     target.on('click', (e) => {
         e.preventDefault();
         let maxlen = iconObjArr.length - 1;
         let theNum = Math.floor(Math.random() * (maxlen - 0 + 1)) + 0;
-        // let theNum = 2;
-
+        console.log('Ad is', theNum);
+        let map = iconObjArr[theNum].map;
         let icon = iconObjArr[theNum].icon;
         let id = iconObjArr[theNum].id;
         let width = iconObjArr[theNum].width;
         let content = iconObjArr[theNum].contents;
 
-        lonlat(icon, id, width);
+        if(map){
+            $('.ad-content').addClass('yes-map');
+            lonlat(icon, id, width);
+        }
         adPend(content);
     })
 
