@@ -1,6 +1,6 @@
 const iconObjArr = [
     {
-        id: 'vitafusion',
+        id: 'vitafusion map',
         map: true,
         width: 120,
         contents: `<div class="vitafusion">
@@ -34,7 +34,7 @@ const iconObjArr = [
         icon: 'img/vitafusion.png'
     },
     {
-        id: 'yepme',
+        id: 'yepme map',
         map: true,
         width: 120,
         contents: `<div class="yepme">
@@ -118,12 +118,12 @@ const iconObjArr = [
         icon: 'img/yepme.png'
     },
     {
-        id: 'dufresne',
+        id: 'dufresne map',
         map: true,
         width: 70,
         contents: `<div class="dufresne">
-        <img src="img/dufresne-back.png">
-</div>`,
+                <img src="img/dufresne-back.png">
+        </div>`,
         icon: 'img/dufresne.png'
     },
     {
@@ -254,19 +254,20 @@ const iconObjArr = [
         icon: 'img/dufresne.png'
     },
     {
-        id: 'vitafusion',
+        id: 'vitafusion video map',
         map: true,
         width: 120,
         contents: `
         <div class="vitafusion">
             <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/vitafusion.png'
+        icon: 'img/vitafusion.png',
+        delay: 30
     },
     {
-        id: 'vitafusion',
+        id: 'vitafusion video',
         map: false,
         width: 120,
         contents: `
@@ -275,10 +276,11 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/vitafusion.png'
+        icon: 'img/vitafusion.png',
+        delay: 30
     },
     {
-        id: 'yepme',
+        id: 'yepme video map',
         map: true,
         width: 120,
         contents: `
@@ -287,10 +289,11 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/yepme.png'
+        icon: 'img/yepme.png',
+        delay: 33
     },
     {
-        id: 'yepme',
+        id: 'yepme video',
         map: false,
         width: 120,
         contents: `
@@ -299,10 +302,11 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/yepme.png'
+        icon: 'img/yepme.png',
+        delay: 33
     },
     {
-        id: 'dufresne',
+        id: 'dufresne video map',
         map: true,
         width: 70,
         contents: `
@@ -311,10 +315,11 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/dufresne.png'
+        icon: 'img/dufresne.png',
+        delay: 32
     },
     {
-        id: 'dufresne',
+        id: 'dufresne video',
         map: false,
         width: 70,
         contents: `
@@ -323,6 +328,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/dufresne.png'
+        icon: 'img/dufresne.png',
+        delay: 32
     }
 ]

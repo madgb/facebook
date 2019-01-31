@@ -20,23 +20,40 @@ $(document).ready(function () {
 
 
     let target = $('.newpostheader');
-    
+
     target.on('click', (e) => {
         e.preventDefault();
         let maxlen = iconObjArr.length - 1;
         let theNum = Math.floor(Math.random() * (maxlen - 0 + 1)) + 0;
-        console.log('Ad is', theNum);
         let map = iconObjArr[theNum].map;
         let icon = iconObjArr[theNum].icon;
         let id = iconObjArr[theNum].id;
         let width = iconObjArr[theNum].width;
         let content = iconObjArr[theNum].contents;
+        let delay = iconObjArr[theNum].delay || 30;
 
-        if(map){
+        if (map) {
             $('.ad-content').addClass('yes-map');
             lonlat(icon, id, width);
         }
         adPend(content);
+        timer(delay);
+        setTimeout(function(){
+            console.log('ad kill');
+            $('.ad-close').show();
+            $('.ad-close').on('click', (e) => {
+                e.preventDefault();
+                $('.ad-container').hide();
+                theNum = null;
+                map = null;
+                icon = null;
+                id = null;
+                width = null;
+                content = null;
+                delay = null;
+                $('.ad-close').hide();
+            })
+        }, 30000);
     })
 
     const lonlat = (icon, id, width) => {
@@ -92,7 +109,7 @@ $(document).ready(function () {
                 center: position
             }
         );
-        
+
         let image = new google.maps.MarkerImage(icon, null, null, null, new google.maps.Size(width, 50));
 
         let marker = new google.maps.Marker({
@@ -109,5 +126,18 @@ $(document).ready(function () {
         wrapper.show();
         canvas.html(content);
     }
-
+    const timer = (time) => {
+        let timer = $('.timer');
+        timer.show();
+        timer.text(time);
+        var intrv = setInterval(function(){
+            time--
+            if(time > 0){
+                timer.text(time);
+            } else {
+                timer.hide();
+                clearInterval(intrv);
+            }
+        }, 1000)
+    }
 });
