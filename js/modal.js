@@ -39,7 +39,6 @@ $(document).ready(function () {
         adPend(content);
         timer(delay);
         setTimeout(function(){
-            console.log('ad kill');
             $('.ad-close').show();
             $('.ad-close').on('click', (e) => {
                 e.preventDefault();
@@ -53,19 +52,10 @@ $(document).ready(function () {
                 delay = null;
                 $('.ad-close').hide();
             })
-        }, 30000);
+        }, delay*1000);
     })
 
     const lonlat = (icon, id, width) => {
-        // icon = icon;
-        // var input = document.getElementById('zip');
-        // var lonlat = document.getElementById('lonlat');
-        // if (input.value.length < 5 || input.value.length > 5) {
-        //     alert('Invalid zip code');
-        // }
-        // if (input.value.length === 5) {
-
-        // var zipCode = input.value;
 
         var xhr = $.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${zipCode}&key=AIzaSyDVPLLlJAQ679Frd0gu11khJ9mW02wsvWQ`);
 
@@ -131,7 +121,7 @@ $(document).ready(function () {
         timer.show();
         timer.text(time);
         var intrv = setInterval(function(){
-            time--
+            time--;
             if(time > 0){
                 timer.text(time);
             } else {
