@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: #e9ebee !important;
 }
@@ -266,41 +269,52 @@ textarea,
   margin-left: -5px;
   display: inline-block;
   cursor: pointer;
+  height: 26px;
+  line-height: 21px;
+  vertical-align: bottom;
 }
 .cover-infos .coverInfo .imoji{
   background-repeat: no-repeat;
   display: inline-block;
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   position: relative;
-  top: 4px;
-  margin-right: 3px;
+  top: 2px;
+  margin-right: 6px;
 }
 .cover-infos .coverInfo .good .imoji{
-  background-image: url("https://facebook.com/rsrc.php/v3/ys/r/qFb-rJsb-c5.png");
-  background-size: 65px 348px;
-  background-position: -34px -263px;
+  background-image: url("https://facebook.com/rsrc.php/v3/yk/r/OLuoQOC2a3q.png");
+  background-size: 97px 1364px;
+  background-position: -83px -984px;
 }
 .cover-infos .coverInfo .share .imoji{
-  background-image: url("https://facebook.com/rsrc.php/v3/yS/r/XFJdEd8FKHe.png");
+  background-image: url("https://facebook.com/rsrc.php/v3/yk/r/OLuoQOC2a3q.png");
   background-size: 97px 1364px;
-  background-position: -66px -1096px;
+  background-position: -66px -1120px;
+  height: 16px;
+  width: 16px;
+  vertical-align: top;
 }
 .cover-infos .coverInfo .edit .imoji{
-  background-image: url("https://facebook.com/rsrc.php/v3/yH/r/z_2VdnMmNwW.png");
-  background-size: 421px 2212px;
-  background-position: -153px -2165px;
+  background-image: url("https://facebook.com/rsrc.php/v3/yk/r/OLuoQOC2a3q.png");
+  background-size: 97px 1364px;
+  background-position: -83px -1049px;
 }
 .cover-infos .coverInfo .dotdot .imoji{
-  background-image: url("https://facebook.com/rsrc.php/v3/yS/r/XFJdEd8FKHe.png");
+  background-image: url("https://facebook.com/rsrc.php/v3/yk/r/OLuoQOC2a3q.png");
   background-size: 97px 1364px;
-  background-position: -49px -960px;
+  background-position: -49px -1052px;
   margin: 0;
+  width: 16px;
+  height: 16px;
 }
 .cover-infos .coverInfo .send-message .imoji{
-  background-image: url("https://facebook.com/rsrc.php/v3/y9/r/kd_ynB4DmPb.png");
-  background-size: 161px 314px;
-background-position: -40px -259px;
+  background-image: url("https://facebook.com/rsrc.php/v3/ys/r/FvsHDukskHe.png");
+  background-size: 421px 3330px;
+  background-position: -404px 0;
+  height: 16px;
+  width: 16px;
+  vertical-align: sub;
 }
 .cover-infos .coverInfo .join{
   padding: 2px 60px;

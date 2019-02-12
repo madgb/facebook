@@ -50,15 +50,46 @@
 }
 
 .ad-container .inner{
-    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
     background: #fff;
     border: 1px solid currentColor;
     padding: 20px;
     margin: 0 auto;
+    position: relative;
+}
+.timer{
+    position: absolute;
+    top: -32px;
+    border: 1px solid;
+    left: -1px;
+    background: #fff;
+    padding: 3px 4px;
+}
+.ad-close{
+    display: none;
+    position: absolute;
+    right: -10px;
+    background: black;
+    border-radius: 50%;
+    top: -10px;
+    color: #fff;
+    height: 23px;
+    width: 23px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.ad-container .ad-content{
+    width: 100%;
+}
+.ad-container .yes-map{
+    width: 60%;
 }
 .ad-container #map{
-    width: 100%;
-    height: 400px;
+    width: 40%;
 }
 
 .ad-container{

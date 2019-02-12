@@ -19,66 +19,43 @@ $(document).ready(function () {
     })
 
 
-    let target = $('.newpostheader');
-    const iconObjArr = [{
-            id: 0,
-            width: 120,
-            contents: `<div class="vitafusion">
-            <div class="header">
-                <img src="img/vitafusion.png" alt="vitafusion">
-            </div>
-            <div class="main">
-                <div class="text">
-                    <div class="title">
-                        Gummy Vitamins for <b>Adults</b>
-                    </div>
-                    <div class="content">
-                        <p><b>Enjoy</b> being healthy</p>
-                        <p><b>Enjoy</b> taste</p>
-                        <p><b>Enjoy</b> the Experience</p>
-                    </div>
-                </div>
-                <div class="img">
-                    <img src="img/vitafusion_sub.png" alt="vitafusion">
-                </div>
-                <div class="bottom">
-                    <p>
-                        Now you can enjoy your vitamins with vitafusion! <br>
-                        First gummy vitamins for adults! <br>
-                        Available in the vitamin section at Target and other fine retailers. <br>
-                        www.nwnaturalproducts.com
-                    </p>
-                </div>
-            </div>
-        </div>`,
-            icon: 'img/vitafusion.png'
-        }
-    ]
+    let target = $('.click-ad');
 
     target.on('click', (e) => {
         e.preventDefault();
         let maxlen = iconObjArr.length - 1;
         let theNum = Math.floor(Math.random() * (maxlen - 0 + 1)) + 0;
-
+        let map = iconObjArr[theNum].map;
         let icon = iconObjArr[theNum].icon;
         let id = iconObjArr[theNum].id;
         let width = iconObjArr[theNum].width;
         let content = iconObjArr[theNum].contents;
+        let delay = iconObjArr[theNum].delay || 30;
 
-        lonlat(icon, id, width);
+        if (map) {
+            $('.ad-content').addClass('yes-map');
+            lonlat(icon, id, width);
+        }
         adPend(content);
+        timer(delay);
+        setTimeout(function(){
+            $('.ad-close').show();
+            $('.ad-close').on('click', (e) => {
+                e.preventDefault();
+                $('.ad-container').hide();
+                theNum = null;
+                map = null;
+                icon = null;
+                id = null;
+                width = null;
+                content = null;
+                delay = null;
+                $('.ad-close').hide();
+            })
+        }, delay*1000);
     })
 
     const lonlat = (icon, id, width) => {
-        // icon = icon;
-        // var input = document.getElementById('zip');
-        // var lonlat = document.getElementById('lonlat');
-        // if (input.value.length < 5 || input.value.length > 5) {
-        //     alert('Invalid zip code');
-        // }
-        // if (input.value.length === 5) {
-
-        // var zipCode = input.value;
 
         var xhr = $.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${zipCode}&key=AIzaSyDVPLLlJAQ679Frd0gu11khJ9mW02wsvWQ`);
 
@@ -122,7 +99,7 @@ $(document).ready(function () {
                 center: position
             }
         );
-        
+
         let image = new google.maps.MarkerImage(icon, null, null, null, new google.maps.Size(width, 50));
 
         let marker = new google.maps.Marker({
@@ -139,5 +116,18 @@ $(document).ready(function () {
         wrapper.show();
         canvas.html(content);
     }
-
+    const timer = (time) => {
+        let timer = $('.timer');
+        timer.show();
+        timer.text(time);
+        var intrv = setInterval(function(){
+            time--;
+            if(time > 0){
+                timer.text(time);
+            } else {
+                timer.hide();
+                clearInterval(intrv);
+            }
+        }, 1000)
+    }
 });
