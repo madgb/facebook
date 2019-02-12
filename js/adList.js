@@ -31,7 +31,7 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/vitafusion.png'
+        icon: '../img/vitafusion.png'
     },
     {
         id: 'yepme map',
@@ -115,7 +115,7 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/yepme.png'
+        icon: '../img/yepme.png'
     },
     {
         id: 'dufresne map',
@@ -124,7 +124,7 @@ const iconObjArr = [
         contents: `<div class="dufresne">
                 <img src="../img/dufresne-back.png">
         </div>`,
-        icon: 'img/dufresne.png'
+        icon: '../img/dufresne.png'
     },
     {
         id: 'vitafusion',
@@ -158,7 +158,7 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/vitafusion.png'
+        icon: '../img/vitafusion.png'
     },
     {
         id: 'yepme',
@@ -242,7 +242,7 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/yepme.png'
+        icon: '../img/yepme.png'
     },
     {
         id: 'dufresne',
@@ -251,7 +251,7 @@ const iconObjArr = [
         contents: `<div class="dufresne">
     <img src="../img/dufresne-back.png">
 </div>`,
-        icon: 'img/dufresne.png'
+        icon: '../img/dufresne.png'
     },
     {
         id: 'vitafusion video map',
@@ -263,7 +263,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/vitafusion.png',
+        icon: '../img/vitafusion.png',
         delay: 30
     },
     {
@@ -276,7 +276,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/vitafusion.png',
+        icon: '../img/vitafusion.png',
         delay: 30
     },
     {
@@ -289,7 +289,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/yepme.png',
+        icon: '../img/yepme.png',
         delay: 33
     },
     {
@@ -302,7 +302,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/yepme.png',
+        icon: '../img/yepme.png',
         delay: 33
     },
     {
@@ -315,7 +315,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/dufresne.png',
+        icon: '../img/dufresne.png',
         delay: 32
     },
     {
@@ -328,7 +328,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/dufresne.png',
+        icon: '../img/dufresne.png',
         delay: 32
     }
 ]
