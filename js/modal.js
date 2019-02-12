@@ -19,7 +19,7 @@ $(document).ready(function () {
     })
 
 
-    let target = $('.newpostheader');
+    let target = $('.click-ad');
 
     target.on('click', (e) => {
         e.preventDefault();
