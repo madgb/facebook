@@ -5,7 +5,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="vitafusion">
     <div class="header">
-        <img src="img/vitafusion.png" alt="vitafusion">
+        <img src="../img/vitafusion.png" alt="vitafusion">
     </div>
     <div class="main">
         <div class="text">
@@ -19,7 +19,7 @@ const iconObjArr = [
             </div>
         </div>
         <div class="img">
-            <img src="img/vitafusion_sub.png" alt="vitafusion">
+            <img src="../img/vitafusion_sub.png" alt="vitafusion">
         </div>
         <div class="bottom">
             <p>
@@ -39,7 +39,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="yepme">
     <div class="header">
-        <img src="img/yepme.png" alt="yepme">
+        <img src="../img/yepme.png" alt="yepme">
     </div>
     <div class="main">
         <div class="left">
@@ -101,7 +101,7 @@ const iconObjArr = [
         </div>
         <div class="right">
             <div class="upper">
-                <img src="img/yepme_sub.png" alt="">
+                <img src="../img/yepme_sub.png" alt="">
             </div>
             <div class="bottom">
                 <p>
@@ -122,7 +122,7 @@ const iconObjArr = [
         map: true,
         width: 70,
         contents: `<div class="dufresne">
-                <img src="img/dufresne-back.png">
+                <img src="../img/dufresne-back.png">
         </div>`,
         icon: 'img/dufresne.png'
     },
@@ -132,7 +132,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="vitafusion">
     <div class="header">
-        <img src="img/vitafusion.png" alt="vitafusion">
+        <img src="../img/vitafusion.png" alt="vitafusion">
     </div>
     <div class="main">
         <div class="text">
@@ -146,7 +146,7 @@ const iconObjArr = [
             </div>
         </div>
         <div class="img">
-            <img src="img/vitafusion_sub.png" alt="vitafusion">
+            <img src="../img/vitafusion_sub.png" alt="vitafusion">
         </div>
         <div class="bottom">
             <p>
@@ -166,7 +166,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="yepme">
     <div class="header">
-        <img src="img/yepme.png" alt="yepme">
+        <img src="../img/yepme.png" alt="yepme">
     </div>
     <div class="main">
         <div class="left">
@@ -228,7 +228,7 @@ const iconObjArr = [
         </div>
         <div class="right">
             <div class="upper">
-                <img src="img/yepme_sub.png" alt="">
+                <img src="../img/yepme_sub.png" alt="">
             </div>
             <div class="bottom">
                 <p>
@@ -249,7 +249,7 @@ const iconObjArr = [
         map: false,
         width: 70,
         contents: `<div class="dufresne">
-    <img src="img/dufresne-back.png">
+    <img src="../img/dufresne-back.png">
 </div>`,
         icon: 'img/dufresne.png'
     },
