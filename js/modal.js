@@ -23,14 +23,14 @@ $(document).ready(function () {
 
     target.on('click', (e) => {
         e.preventDefault();
-        let maxlen = iconObjArr.length - 1;
+        let maxlen = selectedIconObjArr.length - 1;
         let theNum = Math.floor(Math.random() * (maxlen - 0 + 1)) + 0;
-        let map = iconObjArr[theNum].map;
-        let icon = iconObjArr[theNum].icon;
-        let id = iconObjArr[theNum].id;
-        let width = iconObjArr[theNum].width;
-        let content = iconObjArr[theNum].contents;
-        let delay = iconObjArr[theNum].delay || 30;
+        let map = selectedIconObjArr[theNum].map;
+        let icon = selectedIconObjArr[theNum].icon;
+        let id = selectedIconObjArr[theNum].id;
+        let width = selectedIconObjArr[theNum].width;
+        let content = selectedIconObjArr[theNum].contents;
+        let delay = selectedIconObjArr[theNum].delay || 30;
 
         if (map) {
             $('.ad-content').addClass('yes-map');
