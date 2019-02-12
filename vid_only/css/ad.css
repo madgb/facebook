@@ -1,0 +1,47 @@
+.vitafusion{
+    font-family: 'Hind', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.vitafusion .header img{
+    width: 30%;
+}
+
+.vitafusion .main{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.vitafusion .main .text{
+    width: 350px;
+}
+.vitafusion .main .text, .vitafusion .main .img{
+    float: left;
+    width: 350px;
+}
+.vitafusion .main .img img{
+    width: 100%;
+}
+.vitafusion .main .text .title{
+    color: #808080;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.vitafusion .main .text .title b{
+    color: #af1e00;
+}
+
+.vitafusion .main .text .content p{
+    margin-bottom: 0;
+}
+.vitafusion .main .text .content p b{
+    color: #af1e00;
+}
+.vitafusion .main .bottom{
+    width: 100%;
+    padding-top: 20px;
+    clear: both;
+}
