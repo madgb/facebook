@@ -95,3 +95,6 @@
 .ad-container{
     display: none;
 }
+.click-ad, .wrong-ad{
+    cursor: pointer;
+}

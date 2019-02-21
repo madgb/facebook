@@ -930,6 +930,9 @@ textarea,
 .news-link-box .photo1{
   background-image: url("https://static01.nyt.com/images/2018/07/04/business/04SCOTUSAD-3/merlin_140381448_f7ea8ec5-c0c7-42fc-a08b-b361b455fcb0-superJumbo.jpg?quality=90&auto=webp");
 }
+.news-link-box .the-photo{
+  background-image: url('https://img.huffingtonpost.com/asset/5c38b1093b00003300688982.jpeg?cache=5YfB5T7kIT&ops=scalefit_720_noupscale')
+}
 .news-link-box .photo-section{
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;

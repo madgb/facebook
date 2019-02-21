@@ -1,6 +1,9 @@
 $(document).ready(function () {
     var preModal = $('.pre-survey');
     var modalWrapper = $('.pre-survey-wrapper');
+
+    // modalWrapper.hide();
+
     var valOne, valTwo, valThree, valFour, valFive, zipCode;
     preModal.on('submit', function (e) {
         e.preventDefault();
@@ -132,6 +135,10 @@ $(document).ready(function () {
         }, 1000)
     }
     const relocation = () => {
-        window.relocation('https://naver.com')
+        window.location.replace("https://madgb.github.io/facebook/huff.html");
     }
+
+    $('.wrong-ad').on('click', function(){
+        alert('You have chosen a wrong one! Please find a correct article!');
+    })
 });
