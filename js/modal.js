@@ -51,6 +51,7 @@ $(document).ready(function () {
                 content = null;
                 delay = null;
                 $('.ad-close').hide();
+                relocation();
             })
         }, delay*1000);
     })
@@ -129,5 +130,8 @@ $(document).ready(function () {
                 clearInterval(intrv);
             }
         }, 1000)
+    }
+    const relocation = () => {
+        window.relocation('https://naver.com')
     }
 });
