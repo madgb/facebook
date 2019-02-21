@@ -90,7 +90,8 @@ main {
 footer {
   background-color: #712fcb; }
   footer li {
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
   footer ul {
     display: flex;
     flex-flow: row wrap;
