@@ -5,7 +5,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="vitafusion">
     <div class="header">
-        <img src="img/vitafusion.png" alt="vitafusion">
+        <img src="../img/vitafusion.png" alt="vitafusion">
     </div>
     <div class="main">
         <div class="text">
@@ -19,7 +19,7 @@ const iconObjArr = [
             </div>
         </div>
         <div class="img">
-            <img src="img/vitafusion_sub.png" alt="vitafusion">
+            <img src="../img/vitafusion_sub.png" alt="vitafusion">
         </div>
         <div class="bottom">
             <p>
@@ -31,7 +31,7 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/vitafusion.png'
+        icon: '../img/vitafusion.png'
     },
     {
         id: 'yepme map',
@@ -39,7 +39,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="yepme">
     <div class="header">
-        <img src="img/yepme.png" alt="yepme">
+        <img src="../img/yepme.png" alt="yepme">
     </div>
     <div class="main">
         <div class="left">
@@ -101,7 +101,7 @@ const iconObjArr = [
         </div>
         <div class="right">
             <div class="upper">
-                <img src="img/yepme_sub.png" alt="">
+                <img src="../img/yepme_sub.png" alt="">
             </div>
             <div class="bottom">
                 <p>
@@ -115,50 +115,25 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/yepme.png'
+        icon: '../img/yepme.png'
     },
     {
         id: 'dufresne map',
         map: true,
         width: 70,
         contents: `<div class="dufresne">
-                <img src="img/dufresne-back.png">
+                <img src="../img/dufresne-back.png">
         </div>`,
-        icon: 'img/dufresne.png'
+        icon: '../img/dufresne.png'
     },
     {
         id: 'vitafusion',
         map: false,
         width: 120,
         contents: `<div class="vitafusion">
-    <div class="header">
-        <img src="img/vitafusion.png" alt="vitafusion">
-    </div>
-    <div class="main">
-        <div class="text">
-            <div class="title">
-                Gummy Vitamins for <b>Adults</b>
-            </div>
-            <div class="content">
-                <p><b>Enjoy</b> being healthy</p>
-                <p><b>Enjoy</b> taste</p>
-                <p><b>Enjoy</b> the Experience</p>
-            </div>
-        </div>
-        <div class="img">
-            <img src="img/vitafusion_sub.png" alt="vitafusion">
-        </div>
-        <div class="bottom">
-            <p>
-                Now you can enjoy your vitamins with vitafusion! <br>
-                First gummy vitamins for adults! <br>
-                Available in the vitamin section at Target and other fine retailers. <br>
-                www.nwnaturalproducts.com
-            </p>
-        </div>
-    </div>
-</div>`,
-        icon: 'img/vitafusion.png'
+        <img src="../img/vita-img.png" alt="vita-img">
+    </div>`,
+        icon: '../img/vitafusion.png'
     },
     {
         id: 'yepme',
@@ -166,7 +141,7 @@ const iconObjArr = [
         width: 120,
         contents: `<div class="yepme">
     <div class="header">
-        <img src="img/yepme.png" alt="yepme">
+        <img src="../img/yepme.png" alt="yepme">
     </div>
     <div class="main">
         <div class="left">
@@ -228,7 +203,7 @@ const iconObjArr = [
         </div>
         <div class="right">
             <div class="upper">
-                <img src="img/yepme_sub.png" alt="">
+                <img src="../img/yepme_sub.png" alt="">
             </div>
             <div class="bottom">
                 <p>
@@ -242,16 +217,16 @@ const iconObjArr = [
         </div>
     </div>
 </div>`,
-        icon: 'img/yepme.png'
+        icon: '../img/yepme.png'
     },
     {
         id: 'dufresne',
         map: false,
         width: 70,
         contents: `<div class="dufresne">
-    <img src="img/dufresne-back.png">
+    <img src="../img/dufresne-back.png">
 </div>`,
-        icon: 'img/dufresne.png'
+        icon: '../img/dufresne.png'
     },
     {
         id: 'vitafusion video map',
@@ -263,7 +238,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/vitafusion.png',
+        icon: '../img/vitafusion.png',
         delay: 30
     },
     {
@@ -276,7 +251,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/vitafusion.png',
+        icon: '../img/vitafusion.png',
         delay: 30
     },
     {
@@ -289,7 +264,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/yepme.png',
+        icon: '../img/yepme.png',
         delay: 33
     },
     {
@@ -302,7 +277,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/yepme.png',
+        icon: '../img/yepme.png',
         delay: 33
     },
     {
@@ -315,7 +290,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/dufresne.png',
+        icon: '../img/dufresne.png',
         delay: 32
     },
     {
@@ -328,7 +303,7 @@ const iconObjArr = [
                 <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
-        icon: 'img/dufresne.png',
+        icon: '../img/dufresne.png',
         delay: 32
     }
 ]

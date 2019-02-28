@@ -1,0 +1,23 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "> Fake facebook page for NY times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madgb/facebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madgb/facebook/issues"
+  },
+  "homepage": "https://github.com/madgb/facebook#readme",
+  "dependencies": {
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}

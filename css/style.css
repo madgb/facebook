@@ -8,6 +8,9 @@ hr {
     margin-top: 0.5rem !important;
     margin-bottom: 0.5rem !important;
 }
+a:focus, a:hover {
+  text-decoration: none !important;
+}
 textarea,
 .form-control {
   border: 0;
@@ -429,11 +432,9 @@ textarea,
 .feed-content .recentcontainer .community-counter {
   padding: 4px 5px;
   background: #fff;
-}
-.feed-content .recentcontainer .community-counter li a {
-  font-size: 14px;
-  color: #4b4f56;
-  margin-right: 5px;
+  position: relative;
+  font-size: 13px;
+  line-height: 33px;
 }
 .feed-content .recentcontainer .community-counter li a .fa {
   display: inline-block;
@@ -930,6 +931,15 @@ textarea,
 .news-link-box .photo1{
   background-image: url("https://static01.nyt.com/images/2018/07/04/business/04SCOTUSAD-3/merlin_140381448_f7ea8ec5-c0c7-42fc-a08b-b361b455fcb0-superJumbo.jpg?quality=90&auto=webp");
 }
+.news-link-box .black-woman-photo{
+  background-image: url('https://external-sjc3-1.xx.fbcdn.net/safe_image.php?d=AQAcY7D3ofzkCR5Q&w=540&h=282&url=https%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F5c770e352500000703c894b7.jpeg%3Fcache%3Dhrvrtdgtk8%26ops%3D1910_1000&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQAgBM_Jl7mtNATU');
+}
+.news-link-box .black-man-photo{
+  background-image: url('https://external-sjc3-1.xx.fbcdn.net/safe_image.php?d=AQAVQhuODcgMfa6J&w=540&h=282&url=https%3A%2F%2Fimg.huffingtonpost.com%2Fasset%2F5c76b18c250000d80480acf9.jpeg%3Fops%3D1910_1000&cfs=1&upscale=1&fallback=news_d_placeholder_publisher&_nc_hash=AQADAGrI3CwL71LL');
+}
+.news-link-box .the-photo{
+  background-image: url('https://img.huffingtonpost.com/asset/5c38b1093b00003300688982.jpeg?cache=5YfB5T7kIT&ops=scalefit_720_noupscale')
+}
 .news-link-box .photo-section{
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -1037,4 +1047,8 @@ textarea,
   .thirdcol-content .section-content .pac .letters{
     padding-left: 5px;
   }
+}
+.community-counter .right{
+  position: absolute;
+  right: 10px;
 }

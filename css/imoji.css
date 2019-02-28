@@ -1,0 +1,29 @@
+.imoji{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url(http://emojipedia-us.s3.amazonaws.com/content/2015/10/11/facebook-emoji-reactions.gif);
+    background-size: 704%;
+    background-position-y: -176px;
+  }
+  .imoji-thumb{
+    background-position-x: -13px;
+  }
+  .imoji-heart{
+    background-position-x: -38px;
+  }
+  .imoji-lol{
+    background-position-x: -63px;
+  }
+  .imoji-smile{
+    background-position-x: -88px;
+  }
+  .imoji-wow{
+    background-position-x: -113px;
+  }
+  .imoji-sad{
+    background-position-x: -138px;
+  }
+  .imoji-angry{
+    background-position-x: -163px;
+  }
