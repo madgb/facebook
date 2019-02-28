@@ -2,7 +2,7 @@ $(document).ready(function () {
     var preModal = $('.pre-survey');
     var modalWrapper = $('.pre-survey-wrapper');
 
-    modalWrapper.hide();
+    // modalWrapper.hide();
 
     var valOne, valTwo, valThree, valFour, valFive, zipCode;
     preModal.on('submit', function (e) {
