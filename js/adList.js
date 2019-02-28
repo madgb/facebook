@@ -131,33 +131,8 @@ const iconObjArr = [
         map: false,
         width: 120,
         contents: `<div class="vitafusion">
-    <div class="header">
-        <img src="../img/vitafusion.png" alt="vitafusion">
-    </div>
-    <div class="main">
-        <div class="text">
-            <div class="title">
-                Gummy Vitamins for <b>Adults</b>
-            </div>
-            <div class="content">
-                <p><b>Enjoy</b> being healthy</p>
-                <p><b>Enjoy</b> taste</p>
-                <p><b>Enjoy</b> the Experience</p>
-            </div>
-        </div>
-        <div class="img">
-            <img src="../img/vitafusion_sub.png" alt="vitafusion">
-        </div>
-        <div class="bottom">
-            <p>
-                Now you can enjoy your vitamins with vitafusion! <br>
-                First gummy vitamins for adults! <br>
-                Available in the vitamin section at Target and other fine retailers. <br>
-                www.nwnaturalproducts.com
-            </p>
-        </div>
-    </div>
-</div>`,
+        <img src="../img/vita-img.png" alt="vita-img">
+    </div>`,
         icon: '../img/vitafusion.png'
     },
     {

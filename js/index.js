@@ -65,11 +65,19 @@ $(document).ready(function() {
 
 
 	//fake like function
-	$(".like-click").one("click", function(){
-		var count = $(this).parent().parent().parent().find(".like-result span").html();
-		count++;
-		$(this).parent().parent().parent().find(".like-result span").html(count);
-		$(this).parent().parent().parent().find(".like-result").css("color","#5890fc");
+	$(".like-click").on("click", function(){
+		let $color = $(this).css("color");
+
+		if($color === "rgb(88, 144, 252)"){
+			$(this).css("color","rgb(75, 79, 86)");
+
+		} else {
+			$(this).css("color","rgb(88, 144, 252)");
+		}
+		// var count = $(this).parent().parent().parent().find(".like-result span").html();
+		// count++;
+		// $(this).parent().parent().parent().find(".like-result span").html(count);
+		// $(this).parent().parent().parent().find(".like-result").css("color","#5890fc");
 	})
 
 

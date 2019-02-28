@@ -1,7 +1,10 @@
 .vitafusion{
     font-family: 'Hind', sans-serif;
-    width: 90%;
     margin: 0 auto;
+}
+
+.vitafusion img{
+    width: 100%;
 }
 
 .vitafusion .header img{
