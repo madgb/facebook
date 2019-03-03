@@ -3,7 +3,8 @@ const iconObjArr = [
         id: 'vitafusion map',
         map: true,
         width: 120,
-        contents: `<div class="vitafusion">
+        contents: 
+`<div class="vitafusion">
     <div class="header">
         <img src="../img/vitafusion.png" alt="vitafusion">
     </div>
