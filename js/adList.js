@@ -236,7 +236,7 @@ const iconObjArr = [
         contents: `
         <div class="vitafusion">
             <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/Ir21O3nRW2k?amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
         icon: '../img/vitafusion.png',
@@ -249,7 +249,7 @@ const iconObjArr = [
         contents: `
         <div class="vitafusion">
             <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/_hp-gxYF5OM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/Ir21O3nRW2k?amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
         icon: '../img/vitafusion.png',
@@ -262,7 +262,7 @@ const iconObjArr = [
         contents: `
         <div class="yepme">
             <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/7DuLLazxZII?amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
         icon: '../img/yepme.png',
@@ -275,7 +275,7 @@ const iconObjArr = [
         contents: `
         <div class="yepme">
             <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/aBRJUdGdn00?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/7DuLLazxZII?amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
         icon: '../img/yepme.png',
@@ -288,7 +288,7 @@ const iconObjArr = [
         contents: `
         <div class="dufresne">
             <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/GblFRLOijLQ?amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
         icon: '../img/dufresne.png',
@@ -301,7 +301,7 @@ const iconObjArr = [
         contents: `
         <div class="dufresne">
             <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/3FGeLj8bgE4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/GblFRLOijLQ?amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>`,
         icon: '../img/dufresne.png',
